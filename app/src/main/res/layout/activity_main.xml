@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/Bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Bienvenido"
+        android:textSize="30sp"/>
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="166dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/police_badge_icon_136304" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <Button
+            android:id="@+id/BNTLOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+
+
+            android:background="@drawable/boto_personalizado"
+            android:text="@string/BNTLOGIN">
+
+        </Button>
+
+        <Button
+            android:id="@+id/BTNREGISTRO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+
+            android:background="@drawable/boto_personalizado"
+            android:text="@string/BNTREGISTRO">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

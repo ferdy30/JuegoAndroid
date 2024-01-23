@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:gravity="center"
+    android:background="@color/negro1"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:layout_height="700dp">
+
+    <TextView
+        android:id="@+id/SeacaboTXT"
+        android:text="@string/SeacaboTXT"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/HasmatadoTXT"
+        android:text="@string/HasmatadoTXT"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/NumeroTXT"
+        android:text="@string/NumeroTXT"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="finjuego.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <Button
+        android:id="@+id/JUGARDE"
+        android:text="@string/JUGARDE"
+        android:background="@drawable/boto_personalizado"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/IRMENU"
+        android:text="@string/IRMENU"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boto_personalizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/PUNTAJES"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boto_personalizado"
+        android:text="@string/PUNTAJES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

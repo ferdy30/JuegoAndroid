@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">JuegoZ2</string>
+    <string name="BNTLOGIN">login</string>
+    <string name="BNTREGISTRO">Registro</string>
+    <string name="correoEt">Correo electronico</string>
+    <string name="passEt">Contraseña</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Registrar">REGISTRAR</string>
+    <string name="Bienvenido">Bienvenido</string>
+
+
+    <string name="correLogin">Ingresar correo</string>
+    <string name="passLogin">Ingresar contraseña</string>
+    <string name="botonLogin">Ingresar</string>
+
+
+    <string name="MiPuntuacion">Mi puntuación</string>
+    <string name="Fantasmas">--</string>
+    <string name="Uid">--</string>
+    <string name="Correo">--</string>
+    <string name="Menutxt">Menú</string>
+    <string name="Nombre">--</string>
+
+    <string name="JugarBTN">Jugar</string>
+    <string name="PuntuacionesBTN">Puntuaciones</string>
+    <string name="AcercadeBTN">Acerca de</string>
+    <string name="CerrarSession">Cerrar Sesión</string>
+
+
+    <string name="TVcontador"> 0 </string>
+    <string name="TVnombre">----</string>
+    <string name="TVtiempo"> 0s </string>
+
+
+    <string name="AnchoTv">--</string>
+    <string name="AltoTv">--</string>
+
+
+    <string name="SeacaboTXT">¡Se acabó el tiempo!</string>
+    <string name="HasmatadoTXT">Has capturado</string>
+    <string name="NumeroTXT">---</string>
+    <string name="JUGARDE">JUGAR DE NUEVO</string>
+    <string name="IRMENU">Menú</string>
+    <string name="PUNTAJES">VER PUNTAJES</string>
+
+
+    <string name="NombreJugador">Nombre</string>
+    <string name="puntajeJugador">VER PUNTAJES</string>
+    <string name="CorreoJugador">Correo</string>
+
+
+</resources>
